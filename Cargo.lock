@@ -14,7 +14,7 @@ dependencies = [
  "hyper",
  "hyper-util",
  "rpassword",
- "safelog 0.7.2",
+ "safelog 0.8.1",
  "secrecy",
  "serde",
  "tokio",
@@ -2782,7 +2782,7 @@ dependencies = [
  "derive-deftly",
  "libc",
  "paste",
- "thiserror 2.0.18",
+ "thiserror 1.0.69",
 ]
 
 [[package]]
