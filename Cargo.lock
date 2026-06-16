@@ -23,7 +23,7 @@ dependencies = [
  "tor-hscrypto 0.40.0",
  "tor-hsservice",
  "tor-keymgr",
- "tor-llcrypto 0.39.0",
+ "tor-llcrypto 0.41.0",
  "tor-rtcompat 0.41.0",
  "tower",
  "zeroize",
@@ -859,7 +859,7 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "caef6056a5788d05d173cdc3c562ac28ae093828f851f69378b74e4e3d578e41"
 dependencies = [
  "heck",
- "indexmap 2.13.0",
+ "indexmap 1.9.3",
  "itertools",
  "proc-macro-crate",
  "proc-macro2",
@@ -2782,7 +2782,7 @@ dependencies = [
  "derive-deftly",
  "libc",
  "paste",
- "thiserror 2.0.18",
+ "thiserror 1.0.69",
 ]
 
 [[package]]
@@ -4959,45 +4959,6 @@ dependencies = [
  "tor-llcrypto 0.41.0",
  "tor-memquota",
  "tor-protover",
-]
-
-[[package]]
-name = "tor-llcrypto"
-version = "0.39.0"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "25dfaa94ea513719fd77b82ca8175e9019e8c77705a57f1ab2b10ee0fe4fdc88"
-dependencies = [
- "aes",
- "base64ct",
- "ctr",
- "curve25519-dalek",
- "der-parser",
- "derive-deftly",
- "derive_more",
- "digest",
- "ed25519-dalek",
- "educe",
- "getrandom 0.3.4",
- "hex",
- "rand 0.9.2",
- "rand_chacha 0.9.0",
- "rand_core 0.6.4",
- "rand_core 0.9.5",
- "rand_jitter",
- "rdrand",
- "rsa",
- "safelog 0.7.2",
- "serde",
- "sha1",
- "sha2",
- "sha3",
- "signature",
- "subtle",
- "thiserror 2.0.18",
- "tor-error 0.39.0",
- "visibility",
- "x25519-dalek",
- "zeroize",
 ]
 
 [[package]]
